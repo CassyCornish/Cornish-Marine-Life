@@ -85,7 +85,8 @@ body
 
 .homepage-main
 {
-    background-color: rgb(78, 130, 179);
+    /* background-color: rgb(78, 130, 179); */
+    background-image: url('../Images/shitwaves.png');
     height: 81vh;
     align-items: center;
     justify-content: center;
