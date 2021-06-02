@@ -249,6 +249,17 @@ body
     font-family: 'Montserrat', sans-serif;
     font-size: 5vh;
     padding: 5vh;
+    width: 30vw;
+    text-align: center;
+}
+.links-block a
+{
+    text-decoration: none;
+    margin-bottom: 1vh;
+}
+.links-block a:hover
+{
+    font-weight: 600;
 }
 .homepage-footer
 {
