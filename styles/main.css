@@ -15,6 +15,10 @@ body
     padding-right: 5vw;
     background-color: white;
 }
+.title h1
+{
+    font-size: 50px;
+}
 .navbar-dropdown
 {
     height: 10vh;
@@ -67,10 +71,11 @@ body
 {
     float: none;
     color: black;
-    padding: 12px 16px;
+    padding: 1vh 16px;
     text-decoration: none;
     display: block;
     text-align: center;
+    font-size: 3vh;
 }
 .dropdown-content a:hover
 {
@@ -87,10 +92,60 @@ body
 {
     /* background-color: rgb(78, 130, 179); */
     background-image: url('../Images/shitwaves.png');
+    background-size: 20vw;
     height: 81vh;
-    align-items: center;
-    justify-content: center;
     display: flex;
+    justify-content: center;
+}
+.cornwall-map
+{
+    height: 77vh;
+    width: 40vw;
+    float: right;
+    padding: 1%;
+    margin-right: 10vw;
+}
+.cornwall-map-image
+{
+    height: 100%;
+    float: right;
+}
+.main-tagline
+{
+    position: relative;
+    height: 35vh;
+    width: 35vw;
+    margin-left: 15vw;
+    text-align: center;
+    top: 25vh;
+    background-color: lightblue;
+    border-radius: 25px;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-tagline h1
+{
+    justify-self: center;
+    align-self: center;
+    font-size: 8vh;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+}
+.main-tagline button
+{
+    font-size: 4vh;
+    border-radius: 45px;
+    margin-bottom: 5vh;
+    border-color: rgb(135, 156, 214);
+    border-width: 1vh;
+}
+.main-tagline button p
+{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
 }
 .homepage-footer
 {
