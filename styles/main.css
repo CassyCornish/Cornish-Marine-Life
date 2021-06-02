@@ -233,6 +233,20 @@ body
     margin-bottom: 1vh;
 
 }
+.links-block
+{
+    background-color: white;
+    border-radius: 10vh;
+    height: 30vh;
+    margin-top: 20vh;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vh;
+    padding: 5vh
+
+}
 .homepage-footer
 {
     display: flex;
