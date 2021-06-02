@@ -240,8 +240,8 @@ body
 {
     background-color: white;
     border-radius: 10vh;
-    height: 30vh;
-    margin-top: 30vh;
+    height: 40vh;
+    margin-top: 25vh;
     padding-top: 10vh;
     margin-bottom: 25vh;
     display: flex;
@@ -249,13 +249,15 @@ body
     font-family: 'Montserrat', sans-serif;
     font-size: 5vh;
     padding: 5vh;
-    width: 30vw;
+    width: 35vw;
     text-align: center;
+    justify-content: center;
 }
 .links-block a
 {
     text-decoration: none;
     margin-bottom: 1vh;
+    color: darkslategrey;
 }
 .links-block a:hover
 {
