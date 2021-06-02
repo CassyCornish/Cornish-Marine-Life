@@ -14,6 +14,8 @@ body
     padding-left: 5vw;
     padding-right: 5vw;
     background-color: white;
+    position: fixed;
+    width: 90vw;
 }
 .title h1
 {
@@ -119,7 +121,9 @@ body
     height: 81vh;
     display: flex;
     justify-content: center;
+    background-attachment: fixed;
 }
+
 .cornwall-map
 {
     height: 77vh;
@@ -178,11 +182,21 @@ body
     color: darkslategrey;
     font-family: 'Montserrat', sans-serif;
 }
+.column
+{
+    display: flex;
+    flex-direction: column;
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+}
 .info-block
 {
     display: flex;
     width: 45vw;
-    height: 45vh;
+    height: 43vh;
     background-color: white;
     border-radius: 5vh;
     margin: 5vh;
@@ -232,6 +246,8 @@ body
     padding-right: 5vw;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    width: 90vw;
 }
 .org-links
 {
