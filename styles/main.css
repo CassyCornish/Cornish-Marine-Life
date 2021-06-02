@@ -118,10 +118,10 @@ body
     /* background-color: rgb(78, 130, 179); */
     background-image: url('../Images/shitwaves.png');
     background-size: 20vw;
-    height: 81vh;
     display: flex;
     justify-content: center;
     background-attachment: fixed;
+    overflow: auto;
 }
 
 .cornwall-map
@@ -186,6 +186,7 @@ body
 {
     display: flex;
     flex-direction: column;
+    margin-top: 10vh;
 }
 .row
 {
