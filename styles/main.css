@@ -131,6 +131,7 @@ body
     float: right;
     padding: 1%;
     margin-right: 10vw;
+    margin-top: 10vh;
 }
 .cornwall-map-image
 {
@@ -151,6 +152,7 @@ body
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 10vh;
 }
 .main-tagline h1
 {
@@ -239,14 +241,14 @@ body
     background-color: white;
     border-radius: 10vh;
     height: 30vh;
-    margin-top: 20vh;
+    margin-top: 30vh;
     padding-top: 10vh;
+    margin-bottom: 25vh;
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     font-size: 5vh;
-    padding: 5vh
-
+    padding: 5vh;
 }
 .homepage-footer
 {
