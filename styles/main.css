@@ -21,6 +21,10 @@ body
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
+.title :hover
+{
+    font-weight: 600;
+}
 .slogan
 {
     background-color: darkturquoise;
@@ -34,7 +38,7 @@ body
     color:white;
     font-size: 3vh;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
 
 }
@@ -173,6 +177,47 @@ body
     margin-right: 1vh;
     color: darkslategrey;
     font-family: 'Montserrat', sans-serif;
+}
+.info-block
+{
+    display: flex;
+    width: 45vw;
+    height: 45vh;
+    background-color: white;
+    border-radius: 5vh;
+    margin: 5vh;
+}
+.info-block img
+{
+    width: 25vh;
+    height: 25vh;
+    margin: 2vh;
+    margin-top: 8vh;
+    margin-bottom: 3vh;
+    border-radius: 10vh;
+}
+.text-block
+{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    margin-right: 1vw;
+}
+
+.text-block h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+.text-block p
+{
+    font-size: 2vh;
+    margin: 1vh;
+    margin-bottom: 1vh;
+
 }
 .homepage-footer
 {

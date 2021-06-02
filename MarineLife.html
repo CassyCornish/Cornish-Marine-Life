@@ -22,13 +22,13 @@
                 <img src="Images/Wave-Icon.png" alt="">
             </button>
             <div class="dropdown-content">
-                <a href="index.html"><b>Home</b></a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="index.html">Home</a>
+                <a href="marineLife.html"><b>Marine Life</b></a>
+                <a href="links.html">Helpful Links</a>
             </div>
         </nav>
         <div class ="title">
-            <h1>Cornish Marine Life</h1>
+            <h1 onclick="location.href='index.html'">Cornish Marine Life</h1>
         </div>
         <div class="slogan">
             <h3>Love the sea,<br>know your seas!</h3>
@@ -36,24 +36,37 @@
     </header>
 
     <main class="homepage-main">
-        <div class ="main-tagline">
-            <h1>What's in your waters?</h1>
-            <button type="button" onclick="location.href='MarineLife.html'">
-                <p>Click here to find out!</p>
-            </button>
-        </div> 
-        <div class ="cornwall-map">
-        <img class ="cornwall-map-image" src="./Images/Map-of-Cornwall-colour-1080.png" alt="map of cornwall and the isles of scilly">
+
+        <div class ="info-block" id="barrel-jellyfish">
+            <img src="Images/barrel-jellyfish.png" alt="barrel jellyfish">
+            <div class = "text-block">
+                <h3>Barrel Jellyfish</h3>
+                <p class="location"><b>Location: Near Falmouth</b></p>
+                <p class="description">These large jellyfish swarm in warmer coastal waters in late spring and often wash up on our beaches in May or June, sometimes in their hundreds. Their favourite meal is plankton, which can be found in shallow waters. This is what often causes them to wash up, as they underestimate their size. They have eight frilly arms, which contain their small stinging tentacles and surround hundreds of little mouths! The sting of the barrel jellyfish is not normally harmful to humans, though if you find one on the beach it's best not to handle it as they can still sting when dead. </p>
+            </div>
         </div>
 
+        <div class ="info-block" id="bottlenose-dolphin">
+            <img src="Images/bottlenose-dolphin.png" alt="bottlenose-dolphin">
+            <div class = "text-block">
+                <h3>Bottlenose Dolphin</h3>
+                <p class="location"><b>Location: Near St Ives</b></p>
+                <p class="description">These clever, streamlined mammals are found in most of the world’s oceans, including around the UK. By protecting marine dolphins like these we’re helping keep our seas healthy – which is good for all the other wildlife, and billions of people, who rely on the sea for their survival.
+
+                    Bottlenose dolphins are generally social creatures that live in groups called ‘pods’, which can contain hundreds of individuals. They sometimes hunt in groups with other dolphins too.
+                    
+                    By producing clicking sounds and interpreting the returning echoes (‘echo-location’) dolphins can tell the size, shape and speed of objects underwater – that’s how they catch fish, squid and other food.</p>
+            </div>
+        </div>
     </main>
 
     <footer class="homepage-footer">
         <div class="org-links">
-            <p>links to organisations here</p>
+            <a class="footerlinks" href="links.html">Links to wildlife organisations</a>
         </div>
         <div class="credit">
-            <p>Made by Cassy, Courtney and Kay<br>With thanks to Code First Girls!</p>
+            <p>Made by Cassy, Courtney and Kay</p>
+            <a class = "footerlinks" href="https://codefirstgirls.org.uk/">With thanks to Code First Girls!</a>
         </div>
     </footer>
 </body>
